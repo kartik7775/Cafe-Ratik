@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>Café Ratik</title>
+    </head>
+
+    <body>
+        <!-- START: header -->
+        <header>
+            <nav class="header__nav">
+                <div class="header__logo">
+                    <h4 data-aos="fade-down">Café Ratik</h4>
+
+                    <div class="header__logo-overlay"></div>
+                </div>
+
+                <ul class="header__menu" data-aos="fade-down">
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#food">Food</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <img src="assets/search.svg" alt="search" />
+                    </li>
+                </ul>
+
+                <!-- Display Menu icon on small devices -->
+                <ul class="header__menu-mobile" data-aos="fade-down">
+                    <li>
+                        <img src="assets/menu.svg" alt="search" />
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- END: header -->
+
+        <!-- START: hero -->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="/assets/chai-bun.png" alt="chai-bun-maska">
+                <h2 data-aos="fade-up">
+                    Chai<br />
+                    Bun<br />
+                    Maska
+                </h2>
+
+                <div class="hero-image__overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-content-info" data-aos="fade-left">
+                    <h1>Try the taste of Fusion food</h1>
+                    <p>
+                        Feel the taste of the most popular trendy food from
+                        anywhere and anytime.
+                    </p>
+
+                    <div class="hero-content__buttons">
+                        <button class="hero-content__order-button">
+                            Order Now
+                        </button>
+                        <button class="hero-content__book-button">
+                            Book for an Event
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-content__testimonial" data-aos="fade-up">
+                    <div class="hero-content__customer flex-center">
+                        <h4>1,100<span>+</span></h4>
+                        <p>Happy Guests</p>
+                    </div>
+
+                    <div class="hero-content__review">
+                        <img src="assets/user.png" alt="guest-reviewer" />
+                        <p>
+                            “This is an awesome fusion food cafe, with best
+                            delivery service and inhouse functions.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: hero -->
+
+        <!-- START: about us -->
+        <section class="about-us" id="about-us">
+            <div class="about-us__image">
+                <div class="about-us__image-food">
+                    <img
+                        src="assets/sandwich.png"
+                        alt="sandwich"
+                        data-aos="fade-right"
+                    />
+                </div>
+
+                <button class="about-us__button">
+                    Free Recipe
+
+                    <img src="assets/arrow-up-right.svg" alt="arrow_up_right" />
+                </button>
+
+                <div class="about-us__image-food">
+                    <img
+                        src="assets/dosa.png"
+                        alt="dosa"
+                        data-aos="fade-right"
+                    />
+                </div>
+            </div>
+
+            <div class="about-us__content" data-aos="fade-left">
+                <p class="trend__subtitle">About Us</p>
+                <h3 class="trend__title">
+                    Bringing the tastiest fusion our original recipes to you.
+                </h3>
+                <p class="trend__description">
+                    We provide the best experience of 
+                    the Indian culture of hospitality, with our infra-structure and
+                    dining services for our guests.
+                </p>
+            </div>
+        </section>
+        <!-- END: about us -->
+
+        <!-- START: popular foods -->
+        <section class="popular-foods" id="menu">
+            <h2 class="popular-foods__title" data-aos="flip-up">
+                We are known for
+            </h2>
+
+            <div
+                class="popular-foods__filters food__hide-scrollbar"
+                data-aos="fade-up"
+            >
+                <button class="popular-foods__filter-btn active">All</button>
+                <button class="popular-foods__filter-btn">
+                    🥐
+                    Croissants 
+                </button>
+                <button class="popular-foods__filter-btn">
+                    🍜
+                    Noodles
+                </button>
+                <button class="popular-foods__filter-btn">
+                    🥪
+                    Sandwich
+                </button>
+                <button class="popular-foods__filter-btn">
+                    ☕
+                    Coffee
+                </button>
+                <button class="popular-foods__filter-btn">Others</button>
+            </div>
+
+            <div class="popular-foods__catalogue" data-aos="fade-up">
+                <article class="popular-foods__card">
+                    <img
+                        class="popular-foods__card-image"
+                        src="assets/chai-bun-maska.png"
+                        alt="Chai-Bun-Maska"
+                    />
+                    <h4 class="popular-foods__card-title">Chai Bun Maska</h4>
+
+                    <div class="popular-foods__card-details flex-between">
+                        <div class="popular-foods__card-rating">
+                            <img src="assets/star.svg" alt="star" />
+                            <p>4.8</p>
+                        </div>
+
+                        <p class="popular-foods__card-price">₹100/-</p>
+                    </div>
+                </article>
+
+                <!-- active big white card -->
+                <article class="popular-foods__card active-card">
+                    <img
+                        class="popular-foods__card-image"
+                        src="assets/burger.png"
+                        alt="Bingo-Burger"
+                    />
+                    <h4 class="popular-foods__card-title">Bingo Burger</h4>
+
+                    <div class="popular-foods__card-details flex-between">
+                        <div class="popular-foods__card-rating">
+                            <img src="assets/star.svg" alt="star" />
+                            <p>4.9</p>
+                        </div>
+
+                        <p class="popular-foods__card-price">₹210/-</p>
+                    </div>
+                </article>
+
+                <article class="popular-foods__card">
+                    <img
+                        class="popular-foods__card-image "
+                        src="assets/noodles.png"
+                        alt="noodles"
+                    />
+                    <h4 class="popular-foods__card-title">Ratik Noodles</h4>
+
+                    <div class="popular-foods__card-details flex-between">
+                        <div class="popular-foods__card-rating">
+                            <img src="assets/star.svg" alt="star" />
+                            <p>4.7</p>
+                        </div>
+
+                        <p class="popular-foods__card-price">₹190/-</p>
+                    </div>
+                </article>
+            </div>
+
+            <button class="popular-foods__button">
+                Explore Menu
+                <img src="assets/arrow-right.svg" alt="arrow-right" />
+            </button>
+        </section>
+        <!-- END: popular foods -->
+
+        <section class="trending" id="food">
+            <!-- START: trending food -->
+            <section class="trending-dishes">
+                <div class="trending__content" data-aos="fade-right">
+                    <p class="trend__subtitle">Trending This Season</p>
+
+                    <h3 class="trend__title">Chatpata Winter</h3>
+                    <p class="trend__description">
+                        Few of the most delicious dishes...
+                    </p>
+
+                    <ul class="trending__list flex-between" id="trending__dishes-list">
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Mumbai Beach Sandwich</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Rabdi Shola</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>PromNight Paratha</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Uttar Chhole</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Sabudana Khichdi</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Indori Poha</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="trending__image flex-center">
+                    <img
+                        src="assets/food-dishes.jpg"
+                        alt="food-dishes"
+                        data-aos="fade-left"
+                    />
+                    </div>
+                </div>
+            </section>
+            <!-- END: trending food -->
+
+            <!-- START: discover button -->
+            <div class="trending__discover" data-aos="zoom-in">
+                <p>Explore</p>
+            </div>
+            <!-- END: discover button -->
+
+            <!-- START: trending drinks -->
+            <section class="trending-drinks">
+                <div class="trending__image flex-center">
+                    <img
+                        src="assets/drinks.jpeg"
+                        alt="drinks"
+                        data-aos="fade-right"
+                    />
+                    </div>
+                </div>
+
+                <div class="trending__content" data-aos="fade-left">
+                    <p class="trend__subtitle">Fusion Drinks</p>
+
+                    <h3 class="trend__title">All Season Drinks</h3>
+                    <p class="trend__description">
+                        Feel the taste of most delicious Japanese drinks here.
+                    </p>
+
+                    <ul class="trending__list flex-between" id="trending__drinks-list">
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Ratik Special Chai</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Oranagapple Shake</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Dobly Coffee</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Kobdi Juice</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Aarola Mocha</p>
+                        </li>
+                        <li>
+                            <div class="trending__icon flex-center">
+                                <img src="assets/check.svg" alt="check" />
+                            </div>
+                            <p>Mocktail Magan</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- END: trending drinks -->
+        </section>
+
+        <!-- START: subscribe -->
+        <section class="subscription flex-center" id="services">
+            <h2 data-aos="flip-down">
+                Get offers straight <br />
+                to your inbox
+            </h2>
+            <p data-aos="fade-up">Sign up for the Café Ratik newsletter</p>
+
+            <div class="subscription__form" data-aos="fade-up">
+                <input type="text" placeholder="Enter email address" />
+                <button>Get Started</button>
+            </div>
+        </section>
+        <!-- END: subscribe -->
+
+        <!-- START: footer -->
+        <footer class="footer flex-between">
+            <h3 class="footer__logo"><span>Café </span>Ratik</h3>
+
+            <ul class="footer__nav">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#food">Food</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about-us">About us</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="flex-center">
+                    <img src="assets/facebook.svg" alt="facebook" />
+                </li>
+                <li class="flex-center">
+                    <img src="assets/twitter.svg" alt="twitter" />
+                </li>
+                <li class="flex-center">
+                    <img src="assets/instagram.svg" alt="instagram" />
+                </li>
+            </ul>
+        </footer>
+        <!-- END: footer -->
+
+        <script src="/js/script.js" type="module"></script>
+    </body>
+</html>
