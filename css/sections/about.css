@@ -24,11 +24,10 @@
 }
 
 .about-us__image-food img {
-    width: 100%;
+    width: 75%;
 }
-
-.about-us__image-food img {
-    width: 85%;
+.dosa img {
+    width: 100%;
 }
 
 .about-us__button {

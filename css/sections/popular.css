@@ -93,8 +93,8 @@
 }
 
 .popular-foods__card {
-     padding: 38px;
-     min-width: 260px;
+     padding: 20px;
+     min-width: 240px;
      height: fit-content;
      display: flex;
      align-items: center;
@@ -106,8 +106,8 @@
 
 .popular-foods__card-image {
      width: 150px;
-     height: 160px;
-     /* object-fit: contain; */
+     height: 130px;
+     object-fit: contain;
 }
 
 .popular-foods__card-title {

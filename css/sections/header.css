@@ -9,7 +9,7 @@
   display: flex;
   position: relative;
   padding: 20px;
-  font-size: 56px;
+  font-size: 50px;
   font-family: "Bellefair", serif;
   word-spacing: -15px;
 }
@@ -36,6 +36,7 @@
   align-items: center;
   gap: 64px;
   list-style: none;
+  cursor: pointer;
 }
 
 .header__menu li {
